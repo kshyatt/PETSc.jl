@@ -11,5 +11,6 @@ include("error.jl")
 include("pc.jl")
 include("ksp.jl")
 include("is.jl")
+include("log.jl")
 
 end

@@ -36,6 +36,7 @@ end
 
 for ST in PETSc.C.petsc_type
   println("\n\nTesting ", ST)
+  include("log.jl")
   include("error.jl")
   include("vec.jl")
   include("mat.jl")
